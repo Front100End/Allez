@@ -1,0 +1,402 @@
+:root {
+  --nav-color: black;
+  --nav-font-size: 20px;
+  --nav-font-weight: 700;
+  --prd-font-color: black;
+  --notice-font-family: "Noto Sans KR", sans-serif;
+  --inner-font-family: "Noto Sans KR", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wrap {
+  width: 100%;
+}
+
+.whole-header {
+  width: 100%;
+}
+
+.top-header-fix {
+  position: fixed;
+  z-index: 9999;
+  background-color: white;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.top-header {
+  max-width: 1200px;
+  height: 96px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.top-header-wrap {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+.site-link {
+  display: block;
+  width: 116px;
+  height: 27px;
+  background: url(/Allez_shop//images/ic-brandi-symbolrogo-xl.svg) no-repeat 50%;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.form-search {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+}
+
+.search-wrap {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.search {
+  -webkit-appearance: none;
+  border: none;
+  font-size: 15px;
+  display: inline-block;
+  width: 300px;
+  height: 30px;
+  outline-style: none;
+  border-radius: 4px;
+}
+.search-icon {
+  background: url(/Allez_shop/images/ico-search.svg) no-repeat 50%;
+  width: 32px;
+  height: 40px;
+}
+
+.user-nav {
+  display: flex;
+  margin-left: 30px;
+}
+
+.btn-cart {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  background: url(/Allez_shop/images/ic-cart.svg) no-repeat 50%;
+}
+
+.btn-fav {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  background: url(/Allez_shop//images/ic-favorite.svg) no-repeat 50%;
+}
+
+.btn-mypage {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left: 16px;
+  background: url(/Allez_shop//images/ic-my.svg) no-repeat 50%;
+}
+
+.bottom-header {
+  margin-top: 110px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ebeef2;
+}
+
+.bottom-inner {
+  padding: 0 6px;
+  margin: 0 auto;
+}
+
+.prd-nav {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prd-nav-items {
+  padding: 10px 12px;
+  color: var(--nav-color);
+  font-size: var(--nav-font-size);
+  font-weight: var(--nav-font-weight);
+}
+
+.prd-nav-items.new sup {
+  color: #ff204b;
+  font-weight: 700;
+  font-size: 9px;
+  margin-left: 3px;
+}
+
+.join-container {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+}
+
+.inner {
+  max-width: 566px;
+  margin: 0 auto;
+  padding: 30px 0;
+  font-family: var(--inner-font-family);
+}
+.join-toparea input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #d3d7df;
+  font-size: 14px;
+  line-height: 1.4em;
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  color: #202429;
+  padding: 0 16px;
+  outline-style: none;
+}
+.join-toparea input:nth-of-type(n + 2) {
+  margin-top: 6px;
+}
+.inner select {
+  border: 1px solid #d3d7df;
+  font-size: 14px;
+  line-height: 1.4em;
+  width: 100%;
+  height: 44px;
+  border-radius: 8px;
+  color: #202429;
+  padding: 0 16px;
+}
+
+.division-text {
+  font-size: 14px;
+  margin: 6px 0;
+  font-weight: bold;
+}
+
+.join-notice {
+  text-align: center;
+  font-family: var(--notice-font-family);
+  margin-bottom: 30px;
+}
+.join-notice h1 {
+  font-weight: 1000;
+}
+
+.phone-num > ul {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.phone-num li {
+  margin: 0 3px;
+  text-align: center;
+  vertical-align: center;
+}
+
+#phone-certified {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 74px;
+  height: 50px;
+  border: 1px solid #202429;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.birth > ul {
+  display: flex;
+  width: 100%;
+}
+
+.birth select {
+  display: inline-block;
+}
+
+.line {
+  margin: 42px 0px;
+  height: 1px;
+  background-color: #f2f4f7;
+}
+
+.agree-all-area {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+}
+.agree-box {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.join-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 44px;
+  margin-top: 30px;
+  background-color: #000;
+  border-radius: 8px;
+  color: #fff;
+}
+
+/* media section */
+
+@media screen and (max-width: 768px) {
+  .wrap {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .top-header-fix {
+    position: relative;
+    width: 100%;
+  }
+  .top-header {
+    display: flex;
+    margin: 0px;
+    max-width: 768px;
+    width: 100%;
+    height: 60px;
+  }
+  .top-header-wrap {
+    padding: 8px 12px;
+    height: 50px;
+    min-width: 250px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* 여기부턴 픽스 */
+  .prd-main-title h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 1000;
+    margin: 16px 0px;
+  }
+
+  .btn-fav {
+    display: none;
+  }
+  .btn-mypage {
+    display: none;
+  }
+  .btn-cart {
+    margin: 0;
+    width: 48px;
+    height: 48px;
+    background-size: 28px 28px;
+  }
+  .user-nav {
+    margin: 0px;
+  }
+  .search-icon {
+    width: 48px;
+    height: 48px;
+    background-size: 28px 28px;
+    background: url(/Allez_shop/images/ic-search-s.svg) no-repeat right 50%;
+  }
+  .search-wrap {
+    border: none;
+    flex: 2 1 304px;
+  }
+  .search {
+    display: block;
+    width: 100%;
+    height: 48px;
+  }
+}
+
+/* media screen limit*/
+
+@media screen and (min-width: 768px) {
+  .site-link {
+    width: 182px;
+    height: 42px;
+  }
+}
+
+/* bottom media screen max 768 */
+
+@media screen and (max-width: 768px) {
+  .bottom-header {
+    margin: 0;
+    padding: 8px 0px;
+  }
+  .bottom-header nav {
+    width: 100%;
+  }
+  .bottom-header nav > a {
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 3px 5px;
+    text-align: center;
+  }
+  .bottom-header :nth-child(2) {
+    display: none;
+  }
+  .bottom-header :nth-child(3) {
+    display: none;
+  }
+}

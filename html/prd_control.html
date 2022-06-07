@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Allez_shop/css/prd_control.css">
+
+    <script src="https://kit.fontawesome.com/230a6713da.js" crossorigin="anonymous" defer></script>
+    <script src="/Allez_shop/javascript/product_control/option_add.js" defer></script>
+    <script src="/Allez_shop/javascript/product_control/submit.js" defer></script>
+    
+
+    <title>상품등록</title>
+  </head>
+  <body>
+        <div class="wrap">
+            <header class="title">
+                <h1>상품등록</h1>
+                <p>[상품관리 > 상품등록] 페이지로 이동</p>
+            </header>
+            <div class="table">
+                <div class="save"></div>
+                <dl class="product_name">
+                    <dt>
+                        상품명
+                        <dd><input type="text"></dd>
+                    </dt>
+                </dl>
+                <dl class="product_division">
+                    <dt>
+                        상품구분
+                        <dd>
+                            <label for="division_all"><input type="radio" id="division_all" name="prd_division" checked>전체</label>
+                            <label for="division_basic"><input type="radio" id="division_basic" name="prd_division">기본상품</label>
+                            <label for="division_set"><input type="radio" id="division_set" name="prd_division">세트상품</label>
+                        </dd>
+                    </dt>
+                </dl>
+                <dl class="product_classify">
+                    <dt>
+                        상품분류
+                        <dd>
+                            <label for="prd_select">
+                                <select name="prd_select" id="prd_select" style="font-size: 10px;">
+                                    <option value="">상의</option>
+                                    <option value="">하의</option>
+                                    <option value="">아우터</option>
+                                    <option value="">신발</option>
+                                    <option value="">가방</option>
+                                    <option value="">트레이닝</option>
+                                </select>
+                            </label>
+                        </dd>
+                    </dt>
+                </dl>
+                <dl class="product_state">
+                    <dt>
+                        진열상태
+                        <dd>
+                            <label for="state_display_ok"><input type="radio" id="state_display_ok" name="prd_state_display" checked>진열함</label>
+                            <label for="state_display_none"><input type="radio" id="state_display_none" name="prd_state_display">진열안함</label>
+                        </dd>
+                    </dt>
+                    <dt>
+                        판매상태
+                        <dd>
+                            <label for="state_sell_ok"><input type="radio" id="state_sell_ok" name="prd_state_sell" checked>판매함</label>
+                            <label for="state_sell_none"><input type="radio" id="state_sell_none" name="prd_state_sell">판매안함</label>
+                        </dd>
+                    </dt>
+                </dl>
+
+                <div class="product_set_detail">
+                    <div class="product_set_wrap">
+                        <div class="product_price">
+                            <h3 style="font-size: 15px; color:#7e7e7e;">가격</h3>
+                            <div class="price_wrap">
+                                <div class="present_price">
+                                    <span>판매가 (KRW)</span>
+                                    <i class="fa-regular fa-circle-question"></i><br>
+                                    <div class="price_form">
+                                        <form action="">
+                                            <span>KRW</span>
+                                            <input type="number">
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="sale_price">
+                                    <span>할인가 (KRW)</span>
+                                    <i class="fa-regular fa-circle-question"></i><br>
+                                    <div class="price_form">
+                                        <form action="">
+                                            <span>KRW</span>
+                                            <input type="number">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product_option_add">
+                                <div class="inner">
+                                    
+                                    <!-- <div class="option_wrap">
+                                        <div class="option">
+                                            <p>옵션타입</p>
+                                            <select name="option_type" class="option_type_select">
+                                                <option value="">기본</option>
+                                            </select>
+                                        </div>
+                                        <div class="option">
+                                            <p>옵션명</p>
+                                            <input type="text" class="option_name" value="크기" readonly >
+                                        </div>                                        
+                                        <div class="option">
+                                            <p>옵션값</p>
+                                            <div class="value_wrap">
+                                                <div class="value_space">
+                                                    <span class="value">22</span>
+                                                    <button class="value_delete_btn"><i class="fas-solid fa-x"></i></button>
+                                                </div>
+                                                <input type="text" class="option_value" value="" >
+                                            </div>
+                                        </div>
+                                        <input type="checkbox" class="join_checked" checked>
+                                        <span>필수</span>
+                                        <button class="option_delete" disabled = "disabled">X</button>
+                                    </div>
+                                    <div class="option_wrap">
+                                        <div class="option">
+                                            <p>옵션타입</p>
+                                            <select name="option_type" class="option_type_select">
+                                                <option value="">기본</option>
+                                            </select>
+                                        </div>
+                                        <div class="option">
+                                            <p>옵션명</p>
+                                            <input type="text" class="option_name" value="색상" readonly>
+                                        </div>                                        
+                                        <div class="option">
+                                            <p>옵션값</p>
+                                            <div class="value_wrap">
+                                            <button class="value_space"></button>
+                                            <input type="text" class="option_value" value=""  >
+                                            </div>
+                                            
+                                        </div>
+                                        <input type="checkbox"  class="join_checked" checked>
+                                        <span>필수</span>
+                                        <button class="option_delete" disabled = "disabled">X</button>
+                                    </div> -->
+                                    <button id="add_btn">옵션추가</button>
+                            
+
+                                </div>
+                                
+                        </div>
+
+
+
+                    </div>
+                    <div class="product_option_area">
+                        <ul class="option_choise">
+                            <li>필수옵션</li>
+                            <li>
+                                <button onclick="join_option()">조합버튼</button>
+
+                                <!-- <label for="join_option_checked">
+                                <input type="checkbox" name="join_option_checked" id="join_option_checked">
+                                조합형옵션
+                                </label> -->
+                                
+                            </li>
+                        </ul>
+                        <ul class="option_title_wrap">
+                            <input type="checkbox" name="all_checked" id="all_checked">
+                            <div class="title_size_fix">
+                            <li class="option_title_add">크기</li>
+                            <li class="option_title_add">색상</li>
+                            </div>
+                            <li class="option_title">옵션가격</li>
+                            <li class="option_title">재고</li>
+                            <li class="option_title">재고추가</li>
+                            <li class="option_title_state">상태</li>
+                        </ul>
+                        <!-- <ul class="set_value_area">
+
+                            <input type="checkbox" name="selection_checked" class="selection_checked">
+                            <div class="value_size_fix" id="value_size_fix">
+                            <li class="option_title_add"><span class="value_size">크기</span></li>
+                            <li class="option_title_add"><span class="value_color">black</span></li>
+                            </div>
+                            <li class="option_title"><input type="text" class="value_price"></li>
+                            <li class="option_title"><input type="text" class="value_inventory"></li>
+                            <li class="option_title"><input type="text" class="value_inventory_add"></li>
+                            <li class="option_title_state">
+                                <select name="" class="state_slect">
+                                    <option value="판매중">판매중</option>
+                                    <option value="">미판매</option>
+                                    <option value="">품절</option>
+                                </select>
+                                <button class="join_value_delete">X</button>
+                            </li>
+                            
+                            <!-- <div class="value_size_fix">
+                                <div class="value_size">크기</div>
+                                <div class="value_color">black</div>
+                            </div>
+                            <input type="text" class="value_price">
+                            <input type="text" class="value_inventory">
+                            <input type="text" class="value_inventory_add">
+                            <select name="" class="state_slect">
+                                <option value="판매중">판매중</option>
+                                <option value=""></option>
+                            </select> -->
+                        <!-- </ul> -->
+                    </div>
+                </div>
+
+                
+
+                <div class="table_submit">
+                    <input class="table_modify" type="submit" value="수정">
+                    <input class="table_reset" type="reset" value="리셋"> 
+                    <input class="table_save" type="submit" value="저장">
+                </div>
+            </div>
+        </div>
+        
+
+
+  </body>
+</html>
