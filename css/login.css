@@ -80,7 +80,7 @@ p {
   display: block;
   width: 116px;
   height: 27px;
-  background: url(/Allez_shop//images/ic-brandi-symbolrogo-xl.svg) no-repeat 50%;
+  background: url(../images/ic-brandi-symbolrogo-xl.svg) no-repeat 50%;
   background-position: center;
   background-size: 100% 100%;
 }
@@ -110,7 +110,7 @@ p {
   border-radius: 4px;
 }
 .search-icon {
-  background: url(/Allez_shop/images/ico-search.svg) no-repeat 50%;
+  background: url(../images/ico-search.svg) no-repeat 50%;
   width: 32px;
   height: 40px;
 }
@@ -125,7 +125,7 @@ p {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop/images/ic-cart.svg) no-repeat 50%;
+  background: url(../images/ic-cart.svg) no-repeat 50%;
 }
 
 .btn-fav {
@@ -133,7 +133,7 @@ p {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop//images/ic-favorite.svg) no-repeat 50%;
+  background: url(../images/ic-favorite.svg) no-repeat 50%;
 }
 
 .btn-mypage {
@@ -141,7 +141,7 @@ p {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop//images/ic-my.svg) no-repeat 50%;
+  background: url(../images/ic-my.svg) no-repeat 50%;
 }
 
 .bottom-header {
@@ -229,7 +229,7 @@ p {
     width: 48px;
     height: 48px;
     background-size: 28px 28px;
-    background: url(/Allez_shop/images/ic-search-s.svg) no-repeat right 50%;
+    background: url(../images/ic-search-s.svg) no-repeat right 50%;
   }
   .search-wrap {
     border: none;
@@ -413,24 +413,24 @@ p {
 }
 
 .btn_naver {
-  background-image: url(/Allez_shop/images/icons-ic-web-naver-60-pt.svg);
+  background-image: url(../images/icons-ic-web-naver-60-pt.svg);
   width: 60px;
   height: 60px;
 }
 .btn_facebook {
-  background-image: url(/Allez_shop/images/icons-ic-web-facebook-60-pt.svg);
+  background-image: url(../images/icons-ic-web-facebook-60-pt.svg);
   width: 60px;
   height: 60px;
   margin-left: 34px;
 }
 .btn_google {
-  background-image: url(/Allez_shop/images/icons-ic-web-google-60-pt.svg);
+  background-image: url(../images/icons-ic-web-google-60-pt.svg);
   width: 60px;
   height: 60px;
   margin-left: 34px;
 }
 .btn_apple {
-  background-image: url(/Allez_shop/images/icons-ic-web-apple-60-pt.svg);
+  background-image: url(../images/icons-ic-web-apple-60-pt.svg);
   width: 60px;
   height: 60px;
   margin-left: 34px;

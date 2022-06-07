@@ -85,7 +85,7 @@ p {
   display: block;
   width: 116px;
   height: 27px;
-  background: url(/Allez_shop//images/ic-brandi-symbolrogo-xl.svg) no-repeat 50%;
+  background: url(..//images/ic-brandi-symbolrogo-xl.svg) no-repeat 50%;
   background-position: center;
   background-size: 100% 100%;
 }
@@ -115,7 +115,7 @@ p {
   border-radius: 4px;
 }
 .search-icon {
-  background: url(/Allez_shop/images/ico-search.svg) no-repeat 50%;
+  background: url(../images/ico-search.svg) no-repeat 50%;
   width: 32px;
   height: 40px;
 }
@@ -130,7 +130,7 @@ p {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop/images/ic-cart.svg) no-repeat 50%;
+  background: url(../images/ic-cart.svg) no-repeat 50%;
 }
 
 .btn-fav {
@@ -138,7 +138,7 @@ p {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop//images/ic-favorite.svg) no-repeat 50%;
+  background: url(..//images/ic-favorite.svg) no-repeat 50%;
 }
 
 .btn-mypage {
@@ -146,7 +146,7 @@ p {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop//images/ic-my.svg) no-repeat 50%;
+  background: url(..//images/ic-my.svg) no-repeat 50%;
 }
 
 .bottom-header {
@@ -300,8 +300,8 @@ body {
   display: inline-block;
   padding: 0px 24px;
   font-size: 18px;
-  background: url(/Allez_shop/images/ic-btn-seller-28-pt.svg) no-repeat left 50%,
-    url(/Allez_shop/images/ic-arrow-left-black-28-pt.svg) no-repeat right 50%;
+  background: url(../images/ic-btn-seller-28-pt.svg) no-repeat left 50%,
+    url(../images/ic-arrow-left-black-28-pt.svg) no-repeat right 50%;
   background-size: 24px 18px;
   line-height: 18px;
 }
@@ -413,7 +413,7 @@ body {
   width: 18px;
   height: 18px;
   border: none;
-  background: url(/Allez_shop/images/ic-drop-down-black-16-pt.svg) no-repeat 50%;
+  background: url(../images/ic-drop-down-black-16-pt.svg) no-repeat 50%;
 }
 .option_list {
   display: none;
@@ -597,7 +597,7 @@ body {
     width: 48px;
     height: 48px;
     background-size: 28px 28px;
-    background: url(/Allez_shop/images/ic-search-s.svg) no-repeat right 50%;
+    background: url(../images/ic-search-s.svg) no-repeat right 50%;
   }
   .search-wrap {
     border: none;

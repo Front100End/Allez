@@ -87,7 +87,7 @@ input[type="number"]::-webkit-inner-spin-button {
   display: block;
   width: 116px;
   height: 27px;
-  background: url(/Allez_shop//images/ic-brandi-symbolrogo-xl.svg) no-repeat 50%;
+  background: url(..//images/ic-brandi-symbolrogo-xl.svg) no-repeat 50%;
   background-position: center;
   background-size: 100% 100%;
 }
@@ -117,7 +117,7 @@ input[type="number"]::-webkit-inner-spin-button {
   border-radius: 4px;
 }
 .search-icon {
-  background: url(/Allez_shop/images/ico-search.svg) no-repeat 50%;
+  background: url(../images/ico-search.svg) no-repeat 50%;
   width: 32px;
   height: 40px;
 }
@@ -132,7 +132,7 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop/images/ic-cart.svg) no-repeat 50%;
+  background: url(../images/ic-cart.svg) no-repeat 50%;
 }
 
 .btn-fav {
@@ -140,7 +140,7 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop//images/ic-favorite.svg) no-repeat 50%;
+  background: url(..//images/ic-favorite.svg) no-repeat 50%;
 }
 
 .btn-mypage {
@@ -148,7 +148,7 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 40px;
   height: 40px;
   margin-left: 16px;
-  background: url(/Allez_shop//images/ic-my.svg) no-repeat 50%;
+  background: url(..//images/ic-my.svg) no-repeat 50%;
 }
 
 .bottom-header {
@@ -354,7 +354,7 @@ input[type="number"]::-webkit-inner-spin-button {
     width: 48px;
     height: 48px;
     background-size: 28px 28px;
-    background: url(/Allez_shop/images/ic-search-s.svg) no-repeat right 50%;
+    background: url(../images/ic-search-s.svg) no-repeat right 50%;
   }
   .search-wrap {
     border: none;
