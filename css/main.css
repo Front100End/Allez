@@ -34,6 +34,7 @@ input {
 
 .wrap {
   width: 100%;
+  margin: 0 auto;
 }
 .back {
   width: 100%;
@@ -84,11 +85,11 @@ input {
 
 .site-link {
   display: block;
-  width: 116px;
-  height: 27px;
+  width: 200px;
+  height: 50px;
   background: url(../images/Allez_shop_logo.svg) no-repeat 50%;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .form-search {
@@ -627,10 +628,10 @@ footer {
     padding: 0 0 0 50px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .site-link {
-    width: 182px;
-    height: 42px;
+    width: 150px;
+    height: 50px;
   }
 }
 

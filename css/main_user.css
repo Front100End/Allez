@@ -84,11 +84,11 @@ input {
 
 .site-link {
   display: block;
-  width: 116px;
-  height: 27px;
-  background: url(..//images/ic-brandi-symbolrogo-xl.svg) no-repeat 50%;
+  width: 200px;
+  height: 50px;
+  background: url(../images/Allez_shop_logo.svg) no-repeat 50%;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .form-search {
