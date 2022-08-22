@@ -3,7 +3,8 @@
 ALLEZ는 현재 시중에 나와있는 Brandi 의 UI디자인을 클론 코딩했으며  
 사용자 입장으로서 확인 할 수 없었던 상품 등록 페이지 등은 직접 기획하여 만들고 있는 중입니다.  
 
-URL: https://front100end.github.io/Allez/html/main.html
+URL: https://front100end.github.io/Allez/html/main.html  
+포트폴리오 설명: https://url.kr/i7g2hz //노션
 
 현재 구현된 기능  
 - main 화면 슬라이드 기능 (하드코딩), 상품정보에서는 Swiper 라이브러리 활용.
