@@ -1,7 +1,4 @@
-# Allez
-현재 진행중인 프로젝트 ALLEZ입니다.  
-ALLEZ는 현재 시중에 나와있는 Brandi 의 UI디자인을 클론 코딩했으며  
-사용자 입장으로서 확인 할 수 없었던 상품 등록 페이지 등은 직접 기획하여 만들고 있는 중입니다.  
+# Allez  
 
 URL: https://front100end.github.io/Allez/html/main.html  
 포트폴리오 설명: https://url.kr/v185or //Notion
